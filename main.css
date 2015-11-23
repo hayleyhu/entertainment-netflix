@@ -13,7 +13,7 @@ html{box-sizing:border-box}
 .banner{background-color:#262626;display:table;height:600px;margin:0 0 1.5em;max-height:600px;position:relative;width:100%} 
 .banner .grand-header{display:table-cell;padding:0 1.25em;position:relative;text-align:center;vertical-align:middle} 
 .banner .grand-header a{color:#fff;text-decoration:none} 
-.banner .grand-header h1{color:#fff;font-weight:800;line-height:1.15;margin-bottom:.5em}
+.banner .grand-header h1{color:#fff;font-weight:800;line-height:1.15;margin-bottom:.1em}
 .container{max-width:68em;margin-left:auto;margin-right:auto;padding:0 1.25em} 
 .container:after{content:"";display:table;clear:both} 
 .full-bleed,.row{display:block;clear:both;float:none} 
@@ -132,6 +132,7 @@ html{box-sizing:border-box}
 		color:#fff;
 		font-family:Proxima-Nova,Helvetica,sans-serif;
 		font-size:2.2em;
+		font-weight: 900;
 		letter-spacing:.062em;
 		/*line-height:1.15;*/
 		margin-bottom:1em;
@@ -198,7 +199,7 @@ a:hover{text-decoration:underline}
   display:block; 
 }
 .toggle{
-	margin-top: 210px;
+	margin-top: 220px;
 	margin-left: 10px;
 	margin-right: 10px;
 	display: block;
